@@ -1,0 +1,263 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*style*/
+
+body {
+	font: 16px/28px Rockwell, sans-serif;
+	background-color: #eaeaea;
+	background-image: url(Gambar/batik.jpg);
+	color: #333;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+	background-color: white;
+}
+
+.warna {
+	background-color: pink;
+	width: 100%;
+	height: 30px;
+}
+
+.header {
+	padding: 20px;
+	padding-bottom: 10px;
+}
+
+.header .judul {
+	font-size: 40px;
+	font-weight: bold;
+	color: #fc045c;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.header a {
+	text-decoration: none;
+	color: #ff00cc;
+	padding: 3px;
+}
+
+.header a:hover {
+	background-color: lightskyblue;
+	color: white;
+}
+
+.one {
+	margin-left: 350px;
+}
+
+.hero {
+	height: 280px;
+	background-image: url(Gambar/perpuss.png);
+	background-size: cover;
+	background-position: 0 -20px;
+	border-top: 5px solid #fc045c;
+	border-bottom: 5px solid #fc045c;
+}
+.container h2 {
+	color: #ff00cc;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 15px;
+}
+
+img {
+	margin-left: 145px; 
+	width: 70px;
+	height: 70px;
+	margin-top: 20px;
+}
+
+.satu, .dua, .tiga {
+	display: inline-block;
+}
+
+.satu {
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	font-size: 12px;
+	text-align: center;
+	margin-left: 80px;
+
+}
+
+.dua {
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	font-size: 12px;
+	text-align: center;
+	margin-left: 10px;
+
+}
+
+.tiga {
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	font-size: 12px;
+	text-align: center;
+	margin-left: 10px;
+
+}
+
+.vidio {
+	height: 200px;
+	width: 300px;
+	background-image: url(Gambar/perpus2.png);
+	background-size: cover;
+	margin-left: 50px;
+	margin-top: 30px;
+	border: 10px solid #fc045c;
+}
+
+.muter {
+	height: 200px;
+	background-image: url(Gambar/muter1.png);
+	background-repeat: no-repeat;
+	margin-top: -140px;
+	margin-left: 190px;
+}
+
+.judulv {
+	color: #ff00cc;
+	font-weight: bold;
+	font-size: 30px;
+	margin-left: 400px;
+	margin-top: -270px;
+}
+
+.pa {
+	width: 300px;
+	height: 150px;
+	margin-top: 200px;
+	background-color: white;
+	font-size: 13px;
+	margin-left: 400px;
+	margin-top: -1px;
+}
+
+.ja {
+	font-size: 29px;
+	margin-top: -7px;
+	background-color: #fc045c;
+	width: 203px;
+	color: white;
+	padding: 4px;
+	margin-left: 400px;
+}
+
+.ju {
+	height: 200px;
+	margin-top: 30px;
+	background-color: #fa3838;
+}
+
+.abo {
+	margin-left: 20px;
+	margin-top: -180px;
+	font-size: 25px;
+	color: white;
+}
+
+.pr {
+	width: 200px;
+	background-color: #fa3838;
+	font-size: 12px;
+	margin-left: 20px;
+	color: white;
+}
+
+.fat {
+	margin-left: 270px;
+	margin-top: -140px;
+	font-size: 25px;
+	color: white;
+}
+
+.li a{
+	margin-left: 270px;
+}
+
+.saran {
+	margin-left: 500px;
+	margin-top: -140px;
+	font-size: 25px;
+	color: white;
+}
+
+.area {
+	height: 100px;
+	margin-left: 500px;
+	margin-top: -1px;
+}
+
+.kir {
+	text-decoration: none;
+	color: white;
+	margin-left: 400px;
+	font-size: 20px;
+}
+
+.perpus {
+	margin-left: 350px;
+	color: white;
+	font-size: 10px;
+}
