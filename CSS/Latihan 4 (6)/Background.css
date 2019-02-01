@@ -1,0 +1,14 @@
+h1 {
+	font-size: 50px;
+}
+
+body {
+	background-color: white;
+	background-image: url(Gambar/indonesia.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+
+p {
+	font-size: 20px;
+}
